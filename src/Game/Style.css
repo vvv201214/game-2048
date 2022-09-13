@@ -1,0 +1,72 @@
+.main-container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+h2{
+    height: 70px;
+    padding-top: 15px;
+    color: rgb(48, 48, 48);
+    font-size: 35px;
+    background-color: rgb(255, 221, 177);
+}
+h3{
+    font-size: 50px;
+}
+.col{
+    background-color: rgb(255, 221, 177);
+    border: 3px solid rgb(48, 48, 48);
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2%;
+    border-radius: 7px;
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .col{
+        max-height: 90px;
+        font-size: 40px;
+    }
+    .game-over{
+        margin-top: 22%;
+    }
+    .image{
+        height: 220px;
+        width: 300px;
+    }
+}
+
+@media (min-width: 378px) {
+    .container{
+        max-width: 410px;
+    }
+    .game-over{
+        margin-top: 7%;
+    }
+    .image{
+        height: 250px;
+        width: 390px;
+    }
+}
+.game-over{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.newgame-score{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    color: white;
+}
+
+
