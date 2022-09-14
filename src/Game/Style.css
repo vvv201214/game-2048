@@ -67,6 +67,19 @@ h3{
 }
 p{
     color: white;
+    opacity: 1;
+    animation-name: anim;
+    animation-duration: 600ms;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+@keyframes anim{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: .3;
+    }
 }
 
 
